@@ -33,4 +33,5 @@ Use cases:
 ## Q 3 . Explain Decision trees. 
 
 **Answer**
-To be added
+Decision trees belong to a family of supervised machine learning algorithms. One can use decision trees on both classification and regression problems. 
+A decision tree uses the training data to learn rules to predict the target variable. It builds the model in the form of a tree structure. A decision tree classifier breaks the dataset into smaller and smaller subsets and creates the tree from the top (also called root node) by asking simple decision-based questions. Gini impurity is a metric to find the best predictor for the target variable, which becomes the root. The subsequent child nodes are determined similarly.
