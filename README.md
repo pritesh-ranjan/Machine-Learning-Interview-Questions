@@ -41,5 +41,5 @@ A decision tree classifier breaks the dataset into smaller and smaller subsets a
 ## Q 4 . Define overfitting and underfitting. 
 
 **Answer**
-Overfitting- A model is said to overfit when it performs well on the training set but poorly on the test/dev set. An overfit model has learned the dataset in so many details that it starts absorbing its noise and randomness too. So, the model considers this noise as a vital concept to predict the target variable. One way to prevent overfitting is to penalize parameters that lead to overfitting.
+Overfitting- A model is said to overfit when it performs well on the training set but poorly on the test/dev set. An overfit model has learned the dataset in so many details that it starts absorbing its noise and randomness too. So, the model considers this noise as a vital concept to predict the target variable. One way to prevent overfitting is to penalize parameters that lead to overfitting.<br>
 Underfitting- When a model is performing poorly on both training and test data, it is called underfitting. An underfit model is unable to grasp the underlying trends that are needed to make correct predictions. It performs poorly even on previously seen data. One way to avoid underfitting is to increase the complexity of the model.
