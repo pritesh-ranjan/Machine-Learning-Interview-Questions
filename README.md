@@ -1,6 +1,7 @@
+
 # Data Science Interview Questions
 
- When it comes to a job interview, it is essential to know what questions to expect and how to frame the correct answers.
+When it comes to a job interview, it is essential to know what questions to expect and how to frame the correct answers.
 I am building a list of questions with varying difficulty levels to help you prepare for data science and machine learning job interviews.
 
 # Basics
@@ -20,7 +21,7 @@ Questions related to traditional machine learning and basics of data science.
 ## Q 2 . What is a confusion matrix?
 
 **Answer**
-A confusion matrix is a table often used to understand the performance of a machine learning classification algorithm on a test set where we have the correct values. It not only tells us how many records the algorithm predicted correctly but breaks the performance into four sections:
+A *confusion matrix* is a table often used to understand the performance of a machine learning classification algorithm on a test set where we have the correct values. It not only tells us how many records the algorithm predicted correctly but breaks the performance into four sections:
  - True positive- Algorithm predicted say 'Yes' and actual value is 'Yes'
  - True negative- Algorithm predicted 'No' and actual values is 'No'
  - False positive- 'Yes' was predicted, but actual value was 'No'
@@ -34,12 +35,63 @@ Use cases:
 ## Q 3 . Explain Decision trees in brief. 
 
 **Answer**
-Decision trees belong to a family of supervised machine learning algorithms. One can use decision trees on both classification and regression problems. 
+*Decision trees* belong to a family of supervised machine learning algorithms. One can use decision trees on both classification and regression problems. 
 A decision tree uses the training data to learn rules to predict the target variable. It builds the model in the form of a tree structure with a root node at its top, followed by child nodes and leaf nodes at the bottom. Gini impurity is a metric to find the best predictor for the target variable, which becomes the root. The subsequent child nodes are determined similarly. The leaf nodes decide the classification of the model.
 A decision tree classifier breaks the dataset into smaller and smaller subsets and creates the tree from the top (also called root node) by asking simple decision-based questions. 
 
 ## Q 4 . Define overfitting and underfitting. 
 
 **Answer**
-Overfitting- A model is said to overfit when it performs well on the training set but poorly on the test/dev set. An overfit model has learned the dataset in so many details that it starts absorbing its noise and randomness too. So, the model considers this noise as a vital concept to predict the target variable. One way to prevent overfitting is to penalize parameters that lead to overfitting.<br>
-Underfitting- When a model is performing poorly on both training and test data, it is called underfitting. An underfit model is unable to grasp the underlying trends that are needed to make correct predictions. It performs poorly even on previously seen data. One way to avoid underfitting is to increase the complexity of the model.
+*Overfitting*- A model is said to overfit when it performs well on the training set but poorly on the test/dev set. An overfit model has learned the dataset in so many details that it starts absorbing its noise and randomness too. So, the model considers this noise as a vital concept to predict the target variable. One way to prevent overfitting is to penalize parameters that lead to overfitting.<br>
+*Underfitting*- When a model is performing poorly on both training and test data, it is called underfitting. An underfit model is unable to grasp the underlying trends that are needed to make correct predictions. It performs poorly even on previously seen data. One way to avoid underfitting is to increase the complexity of the model.
+
+## Q 5 . Define bias and variance?
+
+**Answer**
+*Bias*: It's the difference between the predicted value and the actual (known) value of the test set. Thus, we can also call it an error of the model. Bias occurs due to certain assumptions it makes while training on the data. High bias leads to underfitting and poor performance on training data.<br>
+*Variance*:  When the model learns from the randomness and noise of the training data, it is called variance. A model with high variance has a very complex fit on the training data and performs poorly on unseen data but well on the training data. This phenomenon is also known as overfitting. Another way to look at variance is the inconsistency of the model predictions. 
+
+## Q 6 . What is bias-variance tradeoff?
+
+**Answer**
+If our model is too simple and has fewer parameters, it can high bias and low variance. Then again, if a model is complex and has too many parameters, it's likely to have high variance and low bias. If one tries to decrease the bias, it increases its variance and vice-versa. This relationship between bias and variance is called the bias-variance tradeoff.
+
+## Q 7 . How can we avoid overfitting?
+
+**Answer**
+If our model performs better on the training data and poorly on the test/unseen data, it is a sign of overfitting. Some popular techniques for avoiding overfitting are:
+ - Cross-validation
+ - Increase training data
+ - Reducing model complexity by reducing parameters (say decreasing the number of splits, etc in a decision tree)
+ - Early stopping
+ -  Regularization
+
+## Q 8 . How do you handle/impute missing data?
+
+**Answer**
+Often our dataset has some rows where the values are either missing (null/NaN/None or blank) or unreliable data. We should handle these before trying to train a model:
+
+ - Replace with a mean/median of the feature in question. Sometimes we can also use the mean of a specific group. For example, in a column of salary, we can replace it with the average salary within that post/skillset instead of the whole column.
+ - Replace with the most common (mode) value.
+ - Replace with zero or another constant based on expert knowledge of the field. For example, in a column of the number of reviews, we can replace it with zero if it is missing. The intuition is that if a product has missing data in the 'number of reviews' column, it is likely to have never been reviewed.
+ - We can also use sklearn's KNNImputer to impute missing values.
+
+## Q 9 . Explain the difference between K nearest neighbours and K means clustering??
+
+**Answer**
+
+## Q 10 . What is normalization? When do you need it?
+
+**Answer**
+
+## Q 11 . What is meant by the phrase “Curse of Dimensionality”.
+
+**Answer**
+
+## Q 12 . Define feature selection. What algorithm or techniques are generally used to perform feature selection.
+
+**Answer**
+
+## Q 13 . What is One-hot encoding?
+
+**Answer**
