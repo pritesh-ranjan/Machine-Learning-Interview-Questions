@@ -40,6 +40,7 @@ Use cases:
 *Decision trees* belong to a family of supervised machine learning algorithms. One can use decision trees on both classification and regression problems. 
 A decision tree uses the training data to learn rules to predict the target variable. It builds the model in the form of a tree structure with a root node at its top, followed by child nodes and leaf nodes at the bottom. Gini impurity is a metric to find the best predictor for the target variable, which becomes the root. The subsequent child nodes are determined similarly. The leaf nodes decide the classification of the model.
 A decision tree classifier breaks the dataset into smaller and smaller subsets and creates the tree from the top (also called root node) by asking simple decision-based questions. 
+![image of a decision trees](resources/decision_trees.png?raw=true)
 
 ## Q 4 . Define overfitting and underfitting. 
 
