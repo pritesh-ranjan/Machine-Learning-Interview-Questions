@@ -31,7 +31,7 @@ Use cases:
 1. A false positive in a drug test can result in jail for an innocent person.
 2. A false negative in a covid-19 test can lead to an infected person remaining untreated and spreading the disease.
 
-![image of a confusion matrix](resources/confusion_matrix.jpg?raw=true "confusion matrix")
+![image of a confusion matrix](resources/confusion_matrix.jpg?raw=true =250x)
 
  
 ## Q 3 . Explain Decision trees in brief. 
