@@ -82,6 +82,10 @@ Often our dataset has some rows where the values are either missing (null/NaN/No
 ## Q 9 . Explain the difference between K nearest neighbours and K means clustering??
 
 **Answer**
+|**KNN**|**K-Means**  |
+|--|--|
+| It is a supervised classification/regression algorithm. | It is an unsupervised clustering algorithm. |
+| Predicts the class, etc by combining the class of ***k*** nearest data points. | Tries to find groups of similar datapoints and creates ***k*** such clusters.|
 
 ## Q 10 . What is normalization? When do you need it?
 
