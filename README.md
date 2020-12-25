@@ -99,6 +99,9 @@ For example, we have a dataset where _Age_ and _Salary_ are two features. Now th
 ## Q 11 . What is meant by the phrase “Curse of Dimensionality”.
 
 **Answer**
+We need features to predict our target variable. The phrase _Curse of Dimensionality_ refers to the increase in error when our dataset has too many features.
+Theoretically, more dimensions allow for more information, but this rarely helps, as it adds unwanted noise. Machine learning algorithms are harder to train on data with high dimensions and often result in low accuracy and high running time.
+To avoid this, we should use dimensionality reduction techniques like feature selection using *PCA* (principal component analysis).
 
 ## Q 12 . Define feature selection. What algorithm or techniques are generally used to perform feature selection.
 
