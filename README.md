@@ -90,6 +90,11 @@ Often our dataset has some rows where the values are either missing (null/NaN/No
 ## Q 10 . What is normalization? When do you need it?
 
 **Answer**
+_Data normalization_ is a technique often used during the data preparation phase of building a machine learning model. We use it to shift the values of some features in a dataset into the same scale so that our model understands the importance of these features and does not lean towards certain features just because they have larger values.
+
+It is usually required when features have different ranges or units (of measurement).
+
+For example, we have a dataset where _Age_ and _Salary_ are two features. Now the age ranges from 18 to 55, whereas the Salary ranges from 20,000 to 5,00,000. We can see the difference in values and ranges in the two features. Our model is likely to be more affected by the Salary feature because it has larger values. But this does not necessarily mean that one is more important than the other. Once we normalize these features and bring them to the same scale, the model's prediction accuracy is likely to improve.
 
 ## Q 11 . What is meant by the phrase “Curse of Dimensionality”.
 
