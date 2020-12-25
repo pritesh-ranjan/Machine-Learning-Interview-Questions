@@ -106,6 +106,13 @@ To avoid this, we should use dimensionality reduction techniques like feature se
 ## Q 12 . Define feature selection. What algorithm or techniques are generally used to perform feature selection.
 
 **Answer**
+While building a machine learning model, it’s quite rare that all features are needed. The process by which we reduce the number of input features is called _feature selection_. It not only reduces noise in the data but also reduces the computational cost of developing the model.
+
+Some popular feature selection methods:
+-   Principal component analysis
+-   Filtering features with high correlation (like Pearson correlation) to the target variable
+-   Feature importance with respect to the target variable
+-   Wrapper methods like Forward feature selection and Backward elimination
 
 ## Q 13 . What is One-hot encoding?
 
