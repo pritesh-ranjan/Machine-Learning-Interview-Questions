@@ -1,7 +1,8 @@
 
+
 # Data Science Interview Questions
 
-When it comes to a job interview, it is essential to know what questions to expect and how to frame the correct answers.
+When it comes to a job interview, it is essential to know the questions that one can face and frame the correct answers.
 I am building a list of questions with varying difficulty levels to help you prepare for data science and machine learning job interviews.
 
 # Basics
@@ -37,27 +38,32 @@ Use cases:
 ## Q 3 . Explain Decision trees in brief. 
 
 **Answer**
-*Decision trees* belong to a family of supervised machine learning algorithms. One can use decision trees on both classification and regression problems. 
-A decision tree uses the training data to learn rules to predict the target variable. It builds the model in the form of a tree structure with a root node at its top, followed by child nodes and leaf nodes at the bottom. Gini impurity is a metric to find the best predictor for the target variable, which becomes the root. The subsequent child nodes are determined similarly. The leaf nodes decide the classification of the model.
-A decision tree classifier breaks the dataset into smaller and smaller subsets and creates the tree from the top (also called root node) by asking simple decision-based questions. 
+_Decision trees_ belong to a family of supervised machine learning algorithms. It can be used on both classification and regression problems.
+
+A decision tree uses the training data to learn decision rules to predict the target variable. It builds the model in the form of a tree structure with a root node at its top, followed by child nodes and leaf nodes at the bottom. The best predictor of the target variable becomes the root node and is determined using Gini impurity. Subsequent child nodes are decided similarly.
+Finally, the leaves at the bottom represent the output of the model.
+A decision tree classifier breaks the dataset into smaller and smaller subsets and creates the tree from the top (also called root node) by asking simple decision-based questions.
 ![image of a decision trees](resources/decision_trees.png?raw=true)
 
 ## Q 4 . Define overfitting and underfitting. 
 
 **Answer**
-*Overfitting*- A model is said to overfit when it performs well on the training set but poorly on the test/dev set. An overfit model has learned the dataset in so many details that it starts absorbing its noise and randomness too. So, the model considers this noise as a vital concept to predict the target variable. One way to prevent overfitting is to penalize parameters that lead to overfitting.<br>
-*Underfitting*- When a model is performing poorly on both training and test data, it is called underfitting. An underfit model is unable to grasp the underlying trends that are needed to make correct predictions. It performs poorly even on previously seen data. One way to avoid underfitting is to increase the complexity of the model.
+_Overfitting_- A model is said to overfit when it performs well on the training set but poorly on the test/dev set. An overfit model has learned from the noise of the data and makes predictions based on that noise. One way to prevent overfitting is to penalize parameters that lead to overfitting.
+
+_Underfitting_- When a model performs poorly on both training and test data, it is called underfitting. An underfit model is unable to grasp the underlying trends that are needed to make correct predictions. It performs poorly even on previously seen data. One way to avoid underfitting is to increase the complexity of the model.
 
 ## Q 5 . Define bias and variance?
 
 **Answer**
-*Bias*: It's the difference between the predicted value and the actual (known) value of the test set. Thus, we can also call it an error of the model. Bias occurs due to certain assumptions it makes while training on the data. High bias leads to underfitting and poor performance on training data.<br>
-*Variance*:  When the model learns from the randomness and noise of the training data, it is called variance. A model with high variance has a very complex fit on the training data and performs poorly on unseen data but well on the training data. This phenomenon is also known as overfitting. Another way to look at variance is the inconsistency of the model predictions. 
+_Bias_: The bias error is an error from erroneous assumptions in the learning algorithm. High bias can cause an algorithm to miss the relevant relations between features and target outputs. High bias leads to underfitting and poor performance on both training and testing data.
+It is the difference between the predicted value and the actual value in the test set.
+
+_Variance_: The variance is an error from sensitivity to small fluctuations in the training set. High variance can cause an algorithm to model the random noise in the training data, rather than the intended outputs. This phenomenon is also known as overfitting. An overfit model has poor performance on the testing set but high performance on the training set.
 
 ## Q 6 . What is bias-variance tradeoff?
 
 **Answer**
-If our model is too simple and has fewer parameters, it can high bias and low variance. Then again, if a model is complex and has too many parameters, it's likely to have high variance and low bias. If one tries to decrease the bias, it increases its variance and vice-versa. This relationship between bias and variance is called the bias-variance tradeoff.
+If our model is too simple and has fewer parameters, it can have high bias and low variance. Then again, if a model is complex and has too many parameters, it's likely to have high variance and low bias. If one tries to decrease the bias, it increases its variance and vice-versa. This relationship between bias and variance is called the bias-variance tradeoff.
 
 ## Q 7 . How can we avoid overfitting?
 
