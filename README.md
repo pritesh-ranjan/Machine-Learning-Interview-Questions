@@ -119,5 +119,5 @@ Some popular feature selection methods:
 **Answer**
 While working with categorical data, we must convert them into a form that our machine learning algorithm can understand. _One hot encoding_ is one such method used to encode categorical data. Here each unique category is represented by its binary column. We place a ‘1’ in the binary column for that category and ‘0’ values for the others.
 
-For example, we have a categorical column in our data with three unique values: 'red', 'yellow', and 'green'. To _one hot encode_ this categorical column, we split it into three separate columns representing each category. Rows that belong to the ‘red’ category will have ‘1’ in their binary column and a ‘0’ value for the others.
+For example, we have a categorical column in our data with three unique values: 'red', 'yellow', and 'green'. To _one hot encode_ this categorical column, we split it into three separate columns representing each category. Rows that belong to the ‘red’ category will have ‘1’ in their binary column and a ‘0’ value for the others.<br>
 ![image of one hot encoding](resources/one_hot_encoding.jpg?raw=true)
