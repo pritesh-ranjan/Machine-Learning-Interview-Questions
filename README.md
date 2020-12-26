@@ -121,3 +121,51 @@ While working with categorical data, we must convert them into a form that our m
 
 For example, we have a categorical column in our data with three unique values: 'red', 'yellow', and 'green'. To _one hot encode_ this categorical column, we split it into three separate columns representing each category. Rows that belong to the ‘red’ category will have ‘1’ in their binary column and a ‘0’ value for the others.<br>
 ![image of one hot encoding](resources/one_hot_encoding.jpg?raw=true)
+
+## Q 14 . Explain how ROC of a curve works?
+
+**Answer**
+
+## Q 15 . Define precision and recall.
+
+**Answer**
+
+## Q 16 . What is linear regression?
+
+**Answer**
+
+## Q 17 . What do you understand by Type I and Type II errors?
+
+**Answer**
+
+## Q 18 . Explain logistic regression.
+
+**Answer**
+
+## Q 19 . Explain Principal Component Analysis (PCA).
+
+**Answer**
+
+## Q 20 . We know that one hot encoding increases the dimensionality of a dataset, but label encoding doesn’t. How?
+
+**Answer**
+
+## Q 21 . Why do we need a validation set and a test set?
+
+**Answer**
+
+## Q22 . How is Random Forest different from Gradient Boosting Algorithm (GBM)?
+
+**Answer**
+
+## Q 23 . Is a high variance in data good or bad? 
+
+**Answer**
+
+## Q 24 . What technique is best to handle a dataset with high variance?
+
+**Answer**
+
+## Q 25 . What's 'naive' in Naïve Bayes algorithm?
+
+**Answer**
