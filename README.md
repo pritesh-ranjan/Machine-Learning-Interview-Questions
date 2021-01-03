@@ -135,6 +135,8 @@ For example, we have a categorical column in our data with three unique values: 
 ## Q 15 . Define precision and recall.
 
 **Answer**
+*Precision* is defined as the proportion of positive identifications that were actually correct.
+*Recall* is defined as the proportion of actual positives that were identified correctly.
 
 ## Q 16 . What is linear regression?
 
