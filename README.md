@@ -12,12 +12,19 @@ Questions related to traditional machine learning and basics of data science.
 ## Q 1. What are the differences between supervised and unsupervised machine learning?
 
 **Answer**
+<style>
+.tablelines table, .tablelines td, .tablelines th {
+        border: 1px solid black;
+        }
+</style>
 |**Supervised ML**|**Unsupervised ML**|
-|--|--|
+|-------|--------|
 | Requires labelled training data |Requires unlabelled training data |
 |The algorithm tries to predict based on what it learned from training data.| It is up to the algorithm tries to find structure/pattern in the data.|
 |Types: Classification, Regression|Clustering, Association rule learning|
 |Decision Tree, Naive Bayes, Random Forest| K-Means clustring, Apriori algorithm|
+{: .tablelines}
+
 
 ## Q 2 . What is a confusion matrix?
 
