@@ -4,7 +4,7 @@
 
 When it comes to a job interview, it is essential to know the questions that one can face and frame the correct answers.
 I am building a list of questions with varying difficulty levels to help you prepare for data science and machine learning job interviews.
-<br> Github pages version of this repository is available on [*<span style="color:green">*here*</span>*](https://pritesh-ranjan.github.io/Machine-Learning-Interview-Questions/)
+<br> <span style="color:green">Github pages version of this repository is available on </span> [<span style="color:green">*here*</span>](https://pritesh-ranjan.github.io/Machine-Learning-Interview-Questions/)
 # Basics
 
 Questions related to traditional machine learning and basics of data science.
